@@ -7,3 +7,8 @@ ignoredBuiltDependencies:
 # publishes are caught before we pull them in. Urgent security bumps can bypass
 # this via minimumReleaseAgeExclude or a pnpm.overrides entry.
 minimumReleaseAge: 10080 # minutes = 7 days
+
+overrides:
+  "axios@>=1.0.0 <1.16.0": ^1.16.0
+  "qs@>=6.7.0 <6.15.2": ^6.15.2
+  "postcss@<8.5.10": ^8.5.13
