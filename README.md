@@ -42,7 +42,10 @@ const others = connectors.filter(
 
 ## Run it
 
+Requires Node 20.19+, 22.13+ or 24+. With nvm, `nvm use` picks the version in `.nvmrc`.
+
 ```bash
+nvm use
 pnpm install
 cp .env.local.example .env.local   # add your JAW API key from https://jaw.id
 pnpm dev
